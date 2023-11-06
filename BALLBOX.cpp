@@ -8,8 +8,8 @@ int main() {
 	for(i=0;i<t;i++)
 	{
 	    cin>>n>>k;
-	    k=k*(k+1)/2;
-	    if(n>=k)
+	    k=k*(k+1)/2;  //following the logic that the nth box has n balls. 
+	    if(n>=k)      //if the boxes can fit balls in boxes with this logic then no two boxes will contain the same number of balls.
 	    cout<<"yes"<<endl;
 	    else
 	    cout<<"no"<<endl;
