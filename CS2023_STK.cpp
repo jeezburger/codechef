@@ -17,7 +17,7 @@ int main() {
 	      cin >> A[i];
 	      if(A[i]>0){
 	      streak1++;
-	      maxc1 = max(maxc1,streak1);  //don't know this function yet
+	      maxc1 = max(maxc1,streak1);  //max functions compares the two ints inside it.
 	      }
 	      else
 	      streak1=0;
