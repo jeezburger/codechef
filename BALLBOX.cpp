@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int i, t, n, k;
+	int t, n, k;
 	cin>>t;
-	for(i=0;i<t;i++)
+	while(t--)
 	{
 	    cin>>n>>k;
 	    k=k*(k+1)/2;  //following the logic that the nth box has n balls. 
